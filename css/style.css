@@ -157,6 +157,9 @@ main{
     font-family: var(--font-raleway);
     font-weight: var(--font-lighter);
 }
+.btn-finish{
+    padding: 12px 40px;
+}
 
 /* result page syle  */
 .result-section{
@@ -199,6 +202,7 @@ main{
 .btn-result{
     padding: 15px 80px;
     margin: 5px;
+    text-decoration: none;
 }
 /* timeout page syle  */
 .timeout-section{
@@ -241,4 +245,5 @@ main{
 .btn-timeout{
     padding: 15px 80px;
     margin: 5px;
+    text-decoration: none;
 }
