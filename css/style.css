@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Rosario&display=swap');
 /* common style  */
 :root{
     --font-raleway: 'Raleway', sans-serif;
@@ -72,8 +73,8 @@ main{
 }
 .mcq-conditions .start-btn{
     background-color: var(--color-black);
-    padding: 15px 100px;
-    margin: 15px auto;
+    padding: 15px 80px;
+    margin: 15px 30px;
     display: flex;
     text-align: center;
     align-items: center;
@@ -84,5 +85,77 @@ main{
     border: none;
     outline: none;
     cursor: pointer;
+    text-decoration: none;
     color: var(--color-white);
+}
+
+/* mcq page question  */
+
+.mcq-section{
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
+    background-color: var(--bg-mcq);
+}
+.mcq-container{
+    margin: 0 auto;
+    width: 775px;
+    padding: 2px;
+
+}
+.mcq-header{
+    background-color: var(--color-white);
+    padding: 40px  45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.mcq-header h1{
+    font-family: var(--font-raleway);
+    font-size: 30px;
+    font-weight: var(--font-bold);
+}
+.mcq-header .btn-finish{
+    padding: 12px 40px;
+    font-size: 25px;
+    font-family: var(--font-raleway);
+    font-weight: var(--font-bold);
+    background-color: var(--color-black);
+    border: 0;
+    outline: none;
+    color: var(--color-white);
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+.mcq-header .btn-finish:hover{
+    background-color: #373434;
+
+}
+.mcq-question{
+    background-color: var(--color-white);
+    padding: 40px 45px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.mcq-question p{
+    font-size: 30px;
+    font-family: var(--font-raleway);
+    font-weight: var(--font-bold);
+    color:var(--color-black);
+    margin-bottom: 10px;
+}
+.mcq-question .input-box input{
+    margin-right: 10px;
+}
+.mcq-question .input-box label{
+    font-size: 30px;
+    font-family: var(--font-raleway);
+    font-weight: var(--font-lighter);
 }
