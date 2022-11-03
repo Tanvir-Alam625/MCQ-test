@@ -247,3 +247,12 @@ main{
     margin: 5px;
     text-decoration: none;
 }
+.btn-disabled{
+    padding: 12px 40px;
+    font-size: 25px;
+    font-family: var(--font-raleway);
+    font-weight: var(--font-bold);
+    background-color: lightgrey;
+    outline: none;
+    border: 0;
+}
